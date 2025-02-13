@@ -3,11 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #ffffff;
-    background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-    background-image: url('https://i.imgur.com/qCxo5f4.jpg');
+    color: #333;
+}
+
+font {
+    background-color: rgb(133, 133, 133);
+    color: rgb(255, 252, 252);
+    padding: 5px;
+    border-radius: 15px; 
+    display: inline-block; 
 }
 
 header {
@@ -71,4 +75,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-

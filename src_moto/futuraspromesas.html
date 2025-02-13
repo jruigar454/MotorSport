@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotos de MotoGP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .piloto {
+            flex: 1 1 calc(30% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .piloto img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .piloto h2, .piloto p {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav {
+        margin: 1em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            background-color: #333;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futuras promesas</h1>
+        <nav>
+            <a href="index.html">Volver al Índice</a>
+        </nav>
+    </header>
+    <section>
+        <div class="piloto">
+            <h2>Celestino Vietti</h2>
+            <img src="https://imgur.com/sycWbqx.png" alt="Celestino Vietti">
+            <p>Equipo: Mooney VR46 Racing Team</p>
+            <p>Nacionalidad: Italia</p>
+        </div>
+        <div class="piloto">
+            <h2>David Alonso</h2>
+            <img src="https://imgur.com/3eAwUeD.png" alt="David Alonso">
+            <p>Equipo: Aspar Team Moto3</p>
+            <p>Nacionalidad: Colombia</p>
+        </div>
+        <div class="piloto">
+            <h2>Fermín Aldeguer</h2>
+            <img src="https://imgur.com/kKMz34R.png" alt="Fermín Aldeguer">
+            <p>Equipo: Gresini Racing</p>
+            <p>Nacionalidad: España</p>
+        </div>
+    </section>
+</body>
+</html>

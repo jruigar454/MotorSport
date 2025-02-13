@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D71920; /* Rojo MotoGP */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin: 1em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+section#pilotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.piloto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s, width 0.3s, height 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    border-left: 8px solid #D71920; /* Línea roja MotoGP */
+}
+
+.piloto:hover {
+    transform: scale(1.05);
+}
+
+.piloto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.piloto h2 {
+    margin: 0;
+    color: #D71920; /* Rojo MotoGP */
+}
+
+.piloto p {
+    font-size: 0.9em;
+}
+
+.piloto .extra-info {
+    display: none;
+}
+
+.piloto:hover .extra-info {
+    display: block;
+}
